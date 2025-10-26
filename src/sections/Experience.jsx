@@ -106,7 +106,7 @@ const Experience = () => {
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
                     <div>
-                      <img src={card.imgPath} alt="exp-img" />
+                      <img src={card.imgPath} className="object-contain h-12 w-40" alt="exp-img" />
                     </div>
                   </GlowCard>
                 </div>
@@ -117,8 +117,8 @@ const Experience = () => {
                       <div className="gradient-line w-1 h-full" />
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
-                      <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" />
+                      <div className="timeline-logo relative flex justify-center items-center">
+                        <img src={card.logoPath} className="object-contain h-8 w-8" alt="logo" />
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>

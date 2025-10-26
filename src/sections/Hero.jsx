@@ -3,7 +3,7 @@ import gsap from "gsap";
 
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
-import { words } from "../constants";
+import { words, personalInfo } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
-        <img src="/images/bg.png" alt="" />
+        <img src="/images/bg.png" className="opacity-5 w-full h-auto object-cover" alt="" />
       </div>
 
       <div className="hero-layout">
@@ -50,9 +50,8 @@ const Hero = () => {
               <h1>that Deliver Results</h1>
             </div>
 
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+            <p className="text-white-50 md:text-xl relative z-10 w-full lg:w-[38rem] pointer-events-none">
+              Hi, I'm {personalInfo.nickname}, a {personalInfo.title.toLowerCase()} based in {personalInfo.location} with a passion for building beautiful web and mobile applications.
             </p>
 
             <Button

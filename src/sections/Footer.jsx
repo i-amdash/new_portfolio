@@ -1,22 +1,29 @@
-import { socialImgs } from "../constants";
+import { socialLinks, personalInfo } from "../constants";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="flex flex-col justify-center">
-          <p>Terms & Conditions</p>
-        </div>
+        <a href="mailto:ashimidoyin@yahoo.com" className="flex flex-col justify-center">
+          <p>Send a mail</p>
+        </a>
         <div className="socials">
-          {socialImgs.map((socialImg, index) => (
-            <div key={index} className="icon">
-              <img src={socialImg.imgPath} alt="social icon" />
-            </div>
+          {socialLinks.map((social, index) => (
+            <a 
+              key={index} 
+              className="icon" 
+              href={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={social.name}
+            >
+              <i className={social.icon}></i>
+            </a>
           ))}
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Adrian Hajdin. All rights reserved.
+            © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
           </p>
         </div>
       </div>

@@ -44,43 +44,41 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
+    <div id="projects" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/projects/lca.png" alt="Landmark Citizen App" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Landmark Citizen App
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                the landmark citizen app is a mobile app built with flutter featuring push notifications, reward system, google auth, ticket purchase, furniture booking, a wallet system, food ordering, activity booking, scan to pay and more. you can download it on both the google play store and apple app store.
               </p>
             </div>
           </div>
 
-          <div className="project-list-wrapper overflow-hidden">
+          <a href="https://landmarkafrica.com/" target="_blank" className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/projects/lma.png"
+                  alt="Landmark Group Website"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Landmark Group Website</h2>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <a href="https://onbapparels.vercel.app/" target="_blank" className="project cursor-pointer" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/projects/onb.png" alt="Blaq Samurai" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
-            </div>
-          </div>
+              <h2>O & B Apparels</h2>
+            </a>
+          </a>
         </div>
       </div>
     </div>
