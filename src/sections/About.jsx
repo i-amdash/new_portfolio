@@ -7,7 +7,7 @@ const About = () => {
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="About Me"
-          sub="✨ Who am I? 👩‍💻"
+          sub="✨ Who am I? 🧑🏾‍💻"
         />
         <div className="grid md:grid-cols-2 gap-10 mt-16">
           <div className="flex flex-col gap-6">
@@ -33,7 +33,7 @@ const About = () => {
               <div className="card-border rounded-xl p-5">
                 <h4 className="text-white font-semibold mb-2">Email</h4>
                 <a className="w-full" href="mailto:ashimidoyin@yahoo.com">
-                  <p className="text-white-50 text-sm">Send an email</p>
+                  <p className="text-white-50 text-sm flex gap-x-3">Send an email <span className="">📤</span></p>
                 </a>
               </div>
             </div>
@@ -42,6 +42,13 @@ const About = () => {
             <div className="card-border rounded-xl p-8">
               <h4 className="text-2xl font-bold text-white mb-6">Education & Certifications</h4>
               <div className="space-y-6">
+                                <div>
+                  <h5 className="text-white font-semibold text-lg">Afe Babalola University</h5>
+                  <p className="text-white-50 text-sm mb-2">October 2017</p>
+                  <ul className="list-disc list-inside text-white-50 text-sm space-y-1">
+                    <li>Bachelor of Science in Accounting</li>
+                  </ul>
+                </div>
                 <div>
                   <h5 className="text-white font-semibold text-lg">FreeCodeCamp</h5>
                   <p className="text-white-50 text-sm mb-2">March 2020 - Present</p>
