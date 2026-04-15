@@ -74,6 +74,12 @@ const otherProjects = [
     link: "https://blaq-samurai.vercel.app/",
   },
   {
+    title: "OnB Apparels",
+    description: "an ecommerce website built with next.js and tailwindcss for a legal firm",
+    imgPath: "/images/projects/onb.png",
+    link: "https://onbapparels.vercel.app/",
+  },
+  {
     title: "hansartss",
     description: "built for the art store hansartss, an ecommerce platform built with next 14, tailwind, three.js and prisma",
     imgPath: "/images/projects/project4.png",

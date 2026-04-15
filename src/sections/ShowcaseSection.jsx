@@ -72,11 +72,11 @@ const AppShowcase = () => {
               <h2>Landmark Group Website</h2>
             </div>
 
-            <a href="https://onbapparels.vercel.app/" target="_blank" className="project cursor-pointer" ref={ycDirectoryRef}>
+            <a href="https://tripleabookclub.com/" target="_blank" className="project cursor-pointer" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/projects/onb.png" alt="Blaq Samurai" />
+                <img src="/images/projects/project15.png" alt="TAB" />
               </div>
-              <h2>O & B Apparels</h2>
+              <h2>Triple A Bookclub</h2>
             </a>
           </a>
         </div>
