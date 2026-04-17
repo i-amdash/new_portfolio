@@ -68,16 +68,22 @@ const featuredProjects = [
 
 const otherProjects = [
   {
-    title: "Blaq Samurai",
-    description: "a simple ecommerce website built with next.js and tailwindcss for a clothing brand",
-    imgPath: "/images/projects/blaq-samurai.png",
-    link: "https://blaq-samurai.vercel.app/",
+    title: "Digital Administration",
+    description: "A SAAS platform built with next.js and tailwindcss for the management of government agencies and their operations",
+    imgPath: "/images/projects/project16.png",
+    link: "https://digital-administration.vercel.app/",
   },
   {
     title: "OnB Apparels",
     description: "an ecommerce website built with next.js and tailwindcss for a legal firm",
     imgPath: "/images/projects/onb.png",
     link: "https://onbapparels.vercel.app/",
+  },
+  {
+    title: "Blaq Samurai",
+    description: "a simple ecommerce website built with next.js and tailwindcss for a clothing brand",
+    imgPath: "/images/projects/blaq-samurai.png",
+    link: "https://blaq-samurai.vercel.app/",
   },
   {
     title: "hansartss",
